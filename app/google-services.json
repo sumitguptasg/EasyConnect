@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "556256242470",
+    "firebase_url": "https://easyconnect-74b3b.firebaseio.com",
+    "project_id": "easyconnect-74b3b",
+    "storage_bucket": "easyconnect-74b3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556256242470:android:51191f8e7aaa7f373f2fe7",
+        "android_client_info": {
+          "package_name": "xyz.sumitgupta.easyconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556256242470-ldanjj88g34tngcu40jc384sjl21rfba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.sumitgupta.easyconnect",
+            "certificate_hash": "b15da477afdf0870877318004fd059e7d272acbe"
+          }
+        },
+        {
+          "client_id": "556256242470-nv1ba5fjib8018dfi3liusb09pka5fee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZe4vtkocqNGaiXu6oaAKd5fSR3AbbYXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556256242470-nv1ba5fjib8018dfi3liusb09pka5fee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
