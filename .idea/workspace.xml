@@ -13,7 +13,10 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="570c05c2-fda7-41f6-a1b7-948ed05fcc5b" name="Default Changelist" comment="" />
+    <list default="true" id="570c05c2-fda7-41f6-a1b7-948ed05fcc5b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/xyz/sumitgupta/easyconnect/ScanQRcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/xyz/sumitgupta/easyconnect/ScanQRcode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_scan_qrcode.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_scan_qrcode.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,13 +113,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sumit\Desktop\EasyConnect\app\src\main\res\drawable" />
     </key>
     <key name="android.template.packageName">
       <recent name="xyz.sumitgupta.easyconnect" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sumit\Desktop\EasyConnect\app\src\main\res\drawable" />
     </key>
   </component>
@@ -310,10 +313,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="716" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599321990207" />
-    <state width="596" height="185" key="javadoc.popup.new" timestamp="1599323026065">
+    <state width="596" height="185" key="javadoc.popup.new" timestamp="1600520343256">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="596" height="185" key="javadoc.popup.new/0.0.1920.1040@0.0.1920.1040" timestamp="1599323026065" />
+    <state width="596" height="185" key="javadoc.popup.new/0.0.1920.1040@0.0.1920.1040" timestamp="1600520343256" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1600508908503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

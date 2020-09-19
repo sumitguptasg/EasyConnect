@@ -10,6 +10,7 @@ import android.util.Log;
 import android.util.SparseArray;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -33,7 +34,6 @@ import java.util.Map;
 public class ScanQRcode extends AppCompatActivity {
 
     SurfaceView cameraPreview;
-    TextView txtResult;
     BarcodeDetector barcodeDetector;
     CameraSource cameraSource;
     final int RequestCameraPermissionID = 1001;
@@ -65,7 +65,6 @@ public class ScanQRcode extends AppCompatActivity {
         setContentView(R.layout.activity_scan_qrcode);
 
         cameraPreview = findViewById(R.id.surfaceView);
-        txtResult = findViewById(R.id.textView);
 
         barcodeDetector = new BarcodeDetector.Builder(this)
                 .setBarcodeFormats(Barcode.QR_CODE)
@@ -116,14 +115,14 @@ public class ScanQRcode extends AppCompatActivity {
                 if(qrcodes.size() != 0 && cnt==0)
                 {
                     cnt=1;
-                    txtResult.post(new Runnable() {
+                    View view = findViewById(android.R.id.content).getRootView();
+                    view.post(new Runnable() {
                         @Override
                         public void run() {
                             //Create vibrate
                             Vibrator vibrator = (Vibrator)getApplicationContext().getSystemService(Context.VIBRATOR_SERVICE);
                             vibrator.vibrate(100);
                             String value=qrcodes.valueAt(0).displayValue;
-                            txtResult.setText(value);
 //                            addData(qrcodes.valueAt(0).displayValue);
 //                            cameraSource.release();
                             Intent i=new Intent(ScanQRcode.this,ViewProfile.class);
