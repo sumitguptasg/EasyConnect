@@ -10,11 +10,11 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="570c05c2-fda7-41f6-a1b7-948ed05fcc5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/xyz/sumitgupta/easyconnect/ScanQRcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/xyz/sumitgupta/easyconnect/ScanQRcode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_scan_qrcode.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_scan_qrcode.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -313,10 +313,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="716" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599321990207" />
-    <state width="596" height="185" key="javadoc.popup.new" timestamp="1600520343256">
+    <state width="596" height="185" key="javadoc.popup.new" timestamp="1600520556323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="596" height="185" key="javadoc.popup.new/0.0.1920.1040@0.0.1920.1040" timestamp="1600520343256" />
+    <state width="596" height="185" key="javadoc.popup.new/0.0.1920.1040@0.0.1920.1040" timestamp="1600520556323" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1600508908503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
